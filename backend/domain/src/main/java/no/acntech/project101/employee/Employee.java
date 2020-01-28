@@ -6,6 +6,7 @@ public class Employee {
 
     public Employee() {
         // Hibernate
+        public Long Youssefif;
     }
 
 }
