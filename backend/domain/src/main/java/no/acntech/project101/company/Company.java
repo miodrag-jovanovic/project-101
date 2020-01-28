@@ -13,11 +13,6 @@ public class Company {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "COMPANY_NAME")
-    private String companyName;
-
-    @Column(name = "ORG_NR")
-    private String orgNr;
 
 
     //TODO add mapping for list of employees if you have time
