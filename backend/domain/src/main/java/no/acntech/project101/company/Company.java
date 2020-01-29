@@ -14,7 +14,6 @@ public class Company {
     private Long id;
     //private Long Youssefid;
     // Test comment
-    // Miodrag
 
 
 
