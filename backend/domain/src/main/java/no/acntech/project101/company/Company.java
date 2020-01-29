@@ -19,6 +19,8 @@ public class Company {
 
     //TODO add mapping for list of employees if you have time
 
+    // Test
+
     public Company() {
     }
 
