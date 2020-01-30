@@ -39,6 +39,11 @@ public class CompanyResource {
         this.companyConverter = companyConverter;
     }
 
+    @GetMapping ("/hello")
+    public String say() {
+        return "Hello";
+    }
+
     @GetMapping
     public ResponseEntity<List<CompanyDto>> findAll() {
         final List<Company> companies = companyService.findAll();
