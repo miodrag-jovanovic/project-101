@@ -18,7 +18,7 @@ public class Company {
 
     @Column(name = "ORG_NR")
     private String orgNr;
-
+//Test
 
     //TODO add mapping for list of employees if you have time
 
