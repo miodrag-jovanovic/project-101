@@ -33,7 +33,7 @@ public class CompanyService {
     }
 
     public List<Company> findAll() {
-        return companyRepository.findAll();
+        return (List<Company>) companyRepository.findAll();
     }
 
     public Optional<Company> findById(Long id) {
